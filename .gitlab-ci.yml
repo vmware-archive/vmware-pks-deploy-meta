@@ -1,0 +1,26 @@
+image: ubuntu
+
+stages:
+  - prepare
+  - build
+  - test
+  - deploy
+
+validate_repo:
+  image:
+    name: python:2.7.15-alpine3.6
+    entrypoint: ["/bin/sh", "-s"]
+  stage: test
+  script:
+    - ls -al
+    - apk update
+    - apk add curl git
+    - curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo
+    - chmod a+x /bin/repo
+    - mkdir test
+    - cd test
+    - echo "Doing /bin/repo init -u ../ -b $CI_COMMIT_REF_NAME"
+    - /bin/repo init -u ../
+    - /bin/repo version
+
+

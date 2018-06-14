@@ -1,6 +1,6 @@
 <manifest>
 	<remote name="github" fetch="https://github.com/" />
-	<remote name="gitlab" fetch="ssh://git@gitlab.eng.vmware.com/" />
+	<remote name="gitlab" fetch="https://gitlab.eng.vmware.com/" />
 
 	<default revision="master" />
 
@@ -15,5 +15,4 @@
 	<project path="apnex-myvmw" remote="github" name="apnex/myvmw.git" />
 
 	<project path="deploy-params" remote="github" name="NiranEC77/NSX-T-Concourse-Pipeline-Onecloud-param.git" />
-
 </manifest>
