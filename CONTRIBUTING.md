@@ -1,8 +1,6 @@
+# Contributing to vmware-pks-deploy-meta
 
-
-# Contributing to vmware-pk-deploy-meta
-
-The vmware-pk-deploy-meta project team welcomes contributions from the community. If you wish to contribute code and you have not
+The vmware-pks-deploy-meta project team welcomes contributions from the community. If you wish to contribute code and you have not
 signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any
 questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq).
 
@@ -23,7 +21,7 @@ This is a rough outline of what a contributor's workflow looks like:
 Example:
 
 ``` shell
-git remote add upstream https://github.com/vmware/vmware-pk-deploy-meta.git
+git remote add upstream https://github.com/vmware/vmware-pks-deploy-meta.git
 git checkout -b my-new-feature master
 git commit -a
 git push origin my-new-feature
