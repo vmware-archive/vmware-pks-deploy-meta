@@ -1,0 +1,18 @@
+<manifest>
+	<remote name="github" fetch="https://github.com/" />
+	<remote name="gitlab" fetch="https://gitlab.eng.vmware.com/" />
+
+	<default revision="master" />
+
+	<project path="pks-deploy" remote="gitlab" name="ps-emerging/pks-deploy.git" />
+
+	<project path="nsx-t-gen" remote="github" name="sparameswaran/nsx-t-gen.git" />
+	<project path="nsx-t-ci-pipeline" remote="github" name="sparameswaran/nsx-t-ci-pipeline.git" />
+	<project path="concourse-pipeline-samples" remote="github" name="pivotalservices/concourse-pipeline-samples.git" />
+
+	<project path="apnex-nsx" remote="github" name="apnex/nsx.git" />
+	<project path="apnex-pks" remote="github" name="apnex/pks.git" />
+	<project path="apnex-myvmw" remote="github" name="apnex/myvmw.git" />
+
+	<project path="deploy-params" remote="github" name="NiranEC77/NSX-T-Concourse-Pipeline-Onecloud-param.git" />
+</manifest>
