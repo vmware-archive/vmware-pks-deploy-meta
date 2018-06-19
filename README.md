@@ -1,26 +1,21 @@
-
-
 # vmware-pk-deploy-meta
 
 ## Overview
+This is a meta repository to assemble all repositories required for a PKS + NSX-T deployment on vSphere.
 
-## Try it out
+Do not clone this repository. Instead, [install Git Repo](https://source.android.com/source/downloading#installing-repo).
 
-### Prerequisites
+Once you've installed Git Repo, you will use it to download and assemble all the component git repositories.
 
-* Prereq 1
-* Prereq 2
-* Prereq 3
+This processis as follows:
+* create and/or change into a directory where you'd like to place all source relevant to this PKS deployment
+* then execute the following
 
-### Build & Run
+`repo init -u git@gitlab.eng.vmware.com:ps-emerging/pks-deploy-meta.git`
 
-1. Step 1
-2. Step 2
-3. Step 3
+...followed by...
 
-## Documentation
-
-## Releases & Major Branches
+`repo sync`
 
 ## Contributing
 
@@ -30,3 +25,6 @@ questions about the CLA process, please refer to our [FAQ](https://cla.vmware.co
 refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
+
+Copyright © 2018 VMware, Inc. All Rights Reserved.
+SPDX-License-Identifier: MIT
