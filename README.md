@@ -3,6 +3,8 @@
 ## Overview
 This is a meta repository to assemble all repositories required for a PKS + NSX-T deployment on vSphere.
 
+You likely really want to be looking at the [vmware-pks-deploy](https://github.com/vmware/vmware-pk-deploy) project.
+
 Do not clone this repository. Instead, [install Git Repo](https://source.android.com/source/downloading#installing-repo).
 
 Once you've installed Git Repo, you will use it to download and assemble all the component git repositories.
