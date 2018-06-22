@@ -15,6 +15,7 @@ script:
   - chmod a+x ~/bin/repo
   - mkdir test
   - cd test
+  - git config --global color.ui false
   - echo "Doing ~/bin/repo init -u ../ -b $TRAVIS_BRANCH"
-  - echo "Doesn't work yet in Travis ~/bin/repo --color=never init -u ../"
-  - ~/bin/repo --color=never version
+  - ~/bin/repo init -u https://github.com/$TRAVIS_REPO_SLUG"
+  - ~/bin/repo version
