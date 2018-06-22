@@ -5,9 +5,9 @@ sudo: false
 addons:
   apt:
     update: true
-
-before_install:
-  - apt-get install -y curl git
+    packages:
+      - curl
+      - git
 
 script:
   - ls -al
