@@ -1,0 +1,21 @@
+language: python
+
+sudo: false
+
+addons:
+  apt:
+    update: true
+    packages:
+      - curl
+      - git
+
+script:
+  - ls -al
+  - curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  - chmod a+x ~/bin/repo
+  - mkdir test
+  - cd test
+  - git config --global color.ui false
+  - echo "Doing ~/bin/repo init -u ../ -b $TRAVIS_BRANCH"
+  - ~/bin/repo init -u https://github.com/$TRAVIS_REPO_SLUG
+  - ~/bin/repo version
