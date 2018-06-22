@@ -16,5 +16,5 @@ script:
   - mkdir test
   - cd test
   - echo "Doing ~/bin/repo init -u ../ -b $TRAVIS_BRANCH"
-  - ~/bin/repo init -u ../
-  - ~/bin/repo version
+  - ~/bin/repo --color=never init -u ../
+  - ~/bin/repo --color=never version
