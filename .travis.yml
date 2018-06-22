@@ -17,5 +17,5 @@ script:
   - cd test
   - git config --global color.ui false
   - echo "Doing ~/bin/repo init -u ../ -b $TRAVIS_BRANCH"
-  - ~/bin/repo init -u https://github.com/$TRAVIS_REPO_SLUG"
+  - ~/bin/repo init -u https://github.com/$TRAVIS_REPO_SLUG
   - ~/bin/repo version
