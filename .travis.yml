@@ -1,0 +1,20 @@
+language: python
+
+sudo: false
+
+addons:
+  apt:
+    update: true
+
+before_install:
+  - apt-get install -y curl git
+
+script:
+  - ls -al
+  - curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo
+  - chmod a+x /bin/repo
+  - mkdir test
+  - cd test
+  - echo "Doing /bin/repo init -u ../ -b $TRAVIS_BRANCH"
+  - /bin/repo init -u ../
+  - /bin/repo version
