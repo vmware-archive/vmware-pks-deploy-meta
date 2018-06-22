@@ -11,10 +11,10 @@ addons:
 
 script:
   - ls -al
-  - curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo
-  - chmod a+x /bin/repo
+  - curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  - chmod a+x ~/bin/repo
   - mkdir test
   - cd test
-  - echo "Doing /bin/repo init -u ../ -b $TRAVIS_BRANCH"
-  - /bin/repo init -u ../
-  - /bin/repo version
+  - echo "Doing ~/bin/repo init -u ../ -b $TRAVIS_BRANCH"
+  - ~/bin/repo init -u ../
+  - ~/bin/repo version
