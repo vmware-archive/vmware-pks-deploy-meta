@@ -12,6 +12,7 @@
 	<project path="concourse-pipeline-samples" remote="github" name="pivotalservices/concourse-pipeline-samples.git" />
 	<project path="packer-ova-concourse" remote="githubs" name="pivotalservices/packer-ova-concourse" />
 	<project path="parse-ova-vm-setting" remote="github" name="datianshi/parse-ova-vm-setting" />
+	<project path="canned-pks" remote="github" name="pivotalservices/canned-pks" />
 
 	<project path="apnex-nsx" remote="github" name="apnex/nsx.git" />
 	<project path="apnex-pks" remote="github" name="apnex/pks.git" />
