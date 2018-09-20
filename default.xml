@@ -10,7 +10,7 @@
 	<project path="nsx-t-gen" remote="github" name="sparameswaran/nsx-t-gen.git" />
 	<project path="nsx-t-ci-pipeline" remote="github" name="sparameswaran/nsx-t-ci-pipeline.git" />
 	<project path="concourse-pipeline-samples" remote="github" name="pivotalservices/concourse-pipeline-samples.git" />
-	<project path="packer-ova-concourse" remote="githubs" name="pivotalservices/packer-ova-concourse" />
+	<!--<project path="packer-ova-concourse" remote="githubs" name="pivotalservices/packer-ova-concourse" />-->
 	<project path="parse-ova-vm-setting" remote="github" name="datianshi/parse-ova-vm-setting" />
 
 	<project path="apnex-nsx" remote="github" name="apnex/nsx.git" />
