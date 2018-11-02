@@ -1,6 +1,7 @@
 <manifest>
 	<remote name="github" fetch="https://github.com/" />
 	<remote name="githubs" fetch="ssh://github.com/" />
+	<remote name="gitlab" fetch="https://gitlab.eng.vmware.com/" />	
 
 	<default revision="master" />
 
@@ -8,15 +9,15 @@
 	<project path="docker-hub-images" remote="github" name="hashicorp/docker-hub-images" />
 
 	<project path="nsx-t-gen" remote="github" name="sparameswaran/nsx-t-gen.git" />
-	<project path="nsx-t-ci-pipeline" remote="github" name="sparameswaran/nsx-t-ci-pipeline.git" />
+	<project path="nsx-t-ci-pipeline" remote="gitlab" name="ps-emerging/nsx-t-ci-pipeline.git" />
 	<project path="concourse-pipeline-samples" remote="github" name="pivotalservices/concourse-pipeline-samples.git" />
 	<!--<project path="packer-ova-concourse" remote="githubs" name="pivotalservices/packer-ova-concourse" />-->
 	<project path="parse-ova-vm-setting" remote="github" name="datianshi/parse-ova-vm-setting" />
-	<project path="canned-pks" remote="github" name="pivotalservices/canned-pks" />
+	<project path="canned-pks" remote="gitlab" name="ps-emerging/canned-pks.git" />
 
 	<project path="apnex-nsx" remote="github" name="apnex/nsx.git" />
 	<project path="apnex-pks" remote="github" name="apnex/pks.git" />
 	<project path="apnex-myvmw" remote="github" name="apnex/myvmw.git" />
-
-	<project path="deploy-params" remote="github" name="NiranEC77/NSX-T-Concourse-Pipeline-Onecloud-param.git" />
+	
+	<!--<project path="deploy-params" remote="github" name="NiranEC77/NSX-T-Concourse-Pipeline-Onecloud-param.git" />-->
 </manifest>
